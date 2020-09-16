@@ -51,8 +51,7 @@ var range;
 document.getElementById("after_submit").style.visibility="visible";
 
 
-document.getElementById("messages").innerHTML=messages[range];
-document.getElementById("number_correct").innerHTML=""+correct+" из 3 верно";
+document.getElementById("number_correct").innerHTML=correct+" из 3 верно<br>"+messages[range];
 }
 
 
